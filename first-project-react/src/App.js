@@ -6,6 +6,7 @@ import './App.css';
 // import Welcome from './components/Welcome';
 // import JsxLearn from './components/Jsx';
 // import Counter from './components/Counter';
+import ParentComponent from './components/ParentComponent';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       {/* <Greet2 name="Lichay" /> */}
       {/* <Greet2 name="Adva" /> */}
       {/* <Counter addValue="1"/> */}
-
+      <ParentComponent />
 
 
     </div>
