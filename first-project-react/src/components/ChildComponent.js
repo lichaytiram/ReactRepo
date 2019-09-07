@@ -6,9 +6,10 @@ function ChildComponent(props) {
 
     return (
         <div>
-            <button onClick={handler}>Greet Parent</button>
+            <button onClick={() => handler("child")}>Greet Parent</button>
         </div>
     )
+
 }
 
 export default ChildComponent
