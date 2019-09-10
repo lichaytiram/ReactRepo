@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ParentComponentV2 from './components/ParentComponentV2';
 // import Forms from './components/Forms';
 // import FragmentDemo from './components/FragmentDemo';
 // import StyleSheet from './components/StyleSheet';
@@ -12,7 +13,7 @@ import './App.css';
 // import JsxLearn from './components/Jsx';
 // import Counter from './components/Counter';
 // import ParentComponent from './components/ParentComponent';
-import Title from './components/Title';
+// import Title from './components/Title';
 
 
 function App() {
@@ -34,8 +35,8 @@ function App() {
       {/* <StyleSheet /> */}
       {/* <Forms /> */}
       {/* <FragmentDemo /> */}
-      <Title />
-
+      {/* <Title /> */}
+      <ParentComponentV2 />
 
     </div>
   );
