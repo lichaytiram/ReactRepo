@@ -8,8 +8,10 @@ class RegComponent extends Component {
     // }
 
     render() {
+
         console.log('Regular Component');
         return <h3>Regular Component {this.props.name}</h3>
+
     }
 }
 

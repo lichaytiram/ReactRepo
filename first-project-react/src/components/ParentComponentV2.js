@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import RegComponent from './RegComponent'
 import PureComp from './PureComp'
+import RegFuncComponent from './RegFuncComponent'
+import PureFuncComp from './PureFuncComp'
 
 class ParentComponentV2 extends Component {
 
@@ -27,6 +29,8 @@ class ParentComponentV2 extends Component {
             <div>
                 <RegComponent name={this.state.name} />
                 <PureComp name={this.state.name} />
+                <RegFuncComponent name={this.state.name} />
+                <PureFuncComp name={this.state.name} />
             </div>
         )
     }

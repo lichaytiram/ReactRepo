@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import ParentComponentV2 from './components/ParentComponentV2';
+// import FocusInput from './components/FocusInput';
+import RFParentInput from './components/RFParentInput';
+// import RefsDemo from './components/RefsDemo';
+// import ParentComponentV2 from './components/ParentComponentV2';
 // import Forms from './components/Forms';
 // import FragmentDemo from './components/FragmentDemo';
 // import StyleSheet from './components/StyleSheet';
@@ -36,7 +39,10 @@ function App() {
       {/* <Forms /> */}
       {/* <FragmentDemo /> */}
       {/* <Title /> */}
-      <ParentComponentV2 />
+      {/* <ParentComponentV2 /> */}
+      {/* <RefsDemo /> */}
+      {/* <FocusInput /> */}
+      <RFParentInput />
 
     </div>
   );
